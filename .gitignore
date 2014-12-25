@@ -1,0 +1,61 @@
+*.class
+*.log
+*.iml
+.metadata/
+
+# sbt specific
+.cache
+.history/
+.lib/
+dist/*
+target/
+test-output/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+apacheds-work/
+
+# calling out cloud receiver explicitly
+.metric-data
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+bin/
+
+# virtual machine crash logs
+hs_err_pid*
+
+# IntelliJ specific
+.idea/
+out/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# sbteclipse
+.target
+
+# sublime text
+*.sublime-workspace
+*.sublime-project
+
+# vim
+*.swp
+tags
+ctags
+.lib_src/
+
+# vagrant
+.vagrant
+vagrant_ansible_inventory_*
+*.iml
+
+# MAC
+.DS_Store
+
+#sbt it:test specific
+coreos-vagrant
